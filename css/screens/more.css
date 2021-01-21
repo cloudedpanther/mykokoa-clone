@@ -1,0 +1,44 @@
+.more-icons .icon-row__notification {
+  position: absolute;
+  right: 25px;
+  bottom: 75px;
+}
+.more-icons .icon-row__icon i {
+  margin-bottom: 15px;
+}
+.more-icons .icon-row__icon span {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.suggestions {
+  border-top: var(--border);
+}
+.suggestions__header {
+  padding: 30px 0px;
+  font-weight: 600;
+}
+.suggestions .icon-row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.suggestions .icon-row__icon {
+  font-size: 30px;
+}
+.suggestions .icon-row__icon i {
+  margin-bottom: 10px;
+  background-color: var(--yellow);
+  padding: 10px;
+  border-radius: 10px;
+}
+.suggestions .icon-row__icon span {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+.suggestions .icon-row__space {
+  width: 81px;
+}
