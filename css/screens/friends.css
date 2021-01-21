@@ -1,0 +1,32 @@
+.friends-header {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+}
+.friends-header__title {
+  width: 70%;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 15px;
+}
+.friends-header__columns {
+  width: 30%;
+  font-size: 20px;
+  text-align: center;
+}
+.friends-header__columns .fa-music {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#friends-display {
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-weight: 600;
+}
+#friends-display i {
+  color: rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
