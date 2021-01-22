@@ -6,6 +6,12 @@
   align-items: center;
   margin-top: 26px;
   margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  top: 0px;
+  z-index: 2;
 }
 .screen-header__title {
   font-weight: 600;
@@ -13,8 +19,9 @@
 .screen-header__icons {
   display: flex;
 }
-.screen-header__icons span {
-  margin-left: 15px;
+.screen-header__icons > span,
+.screen-header__icons > div {
+  margin-left: 30px;
 }
 .screen-header__cog {
   position: relative;

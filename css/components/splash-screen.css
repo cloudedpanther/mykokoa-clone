@@ -1,0 +1,13 @@
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  background-color: var(--yellow);
+  z-index: 4;
+  font-size: 60px;
+  color: #3c1e1e;
+}

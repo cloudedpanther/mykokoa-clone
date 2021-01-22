@@ -1,0 +1,126 @@
+.chat-screen {
+  background-color: #abc1d1;
+}
+.chat-screen .status-bar {
+  background-color: #abc1d1;
+}
+.chat-screen .alt-header {
+  background-color: #abc1d1;
+}
+.chat-main {
+  display: flex;
+  margin-top: 87.6px;
+  flex-direction: column;
+  align-items: center;
+}
+.chat-screen__time-stamp {
+  background-color: #92a4b2;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+  margin-right: 7px;
+}
+.message-author {
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+.message-info {
+  display: flex;
+  align-items: flex-end;
+}
+.message-bubble {
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 13px;
+  border-top-left-radius: 0px;
+  margin-right: 7px;
+}
+.message-time {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  font-weight: 600;
+}
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message-info {
+  flex-direction: row-reverse;
+}
+.message-row--own .message-bubble {
+  background-color: var(--yellow);
+  margin-right: 0px;
+  margin-left: 7px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 0px;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply__column {
+  width: 100%;
+}
+.reply__column:first-child {
+  width: 10%;
+}
+.reply__column:first-child i {
+  opacity: 0.5;
+}
+.reply__column:last-child {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+.reply__column:last-child > i,
+.reply__column:last-child > button {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}
+.reply__column:last-child > i {
+  right: 50px;
+}
+.reply__column:last-child > button {
+  border-radius: 50%;
+  border: none;
+  background-color: var(--yellow);
+  padding: 7px;
+  bottom: 3px;
+  right: 3px;
+}
+.reply__column input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
