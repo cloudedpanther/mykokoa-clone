@@ -31,3 +31,15 @@
   bottom: 25px;
   left: 25px;
 }
+@keyframes cogRotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.screen-header__cog i:hover {
+  animation: cogRotate 2s linear infinite;
+}

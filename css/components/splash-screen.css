@@ -1,3 +1,13 @@
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 .splash-screen {
   display: flex;
   justify-content: center;
@@ -10,4 +20,6 @@
   z-index: 4;
   font-size: 60px;
   color: #3c1e1e;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
 }

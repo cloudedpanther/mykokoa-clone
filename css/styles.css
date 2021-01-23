@@ -19,11 +19,12 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat-screen.css";
+@import "screens/no-mobile.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #2f363e;
-  height: 1000vh;
+  /*height: 1000vh;*/
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
